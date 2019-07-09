@@ -94,7 +94,7 @@ import('@/vendor/Export2Excel').then(excel => {
   解析成功时候会触发的回调函数，它会返回表格的表头和内容。
 
 ```js
- handleSuccess({ results, header }) {
+ handleSuccess({ results, header })    {
       this.tableData = results
       this.tableHeader = header
     }
